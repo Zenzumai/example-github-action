@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc --noEmit && jest",
+    "lint": "eslint . --ext .ts"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.12.31",
+    "@typescript-eslint/eslint-plugin": "^2.25.0",
+    "@typescript-eslint/parser": "^2.25.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^25.2.0",
+    "js-yaml": "^3.13.1",
+    "prettier": "^2.0.2",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  }
+}
